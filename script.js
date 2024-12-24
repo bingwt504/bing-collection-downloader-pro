@@ -226,7 +226,7 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
   // Function to download an image and add it to the zip file
   async function downloadAndAddToZip({url, title, thumbnails, dateModified}, num) {
 
-//v2.0 +
+//v2.0 start edit - to allow the HTML to find the image in case the title contains weird characters
     const promptContent = title; //.replaceAll(/ Immagine [0-9]+ di [0-9]+/,'');
     //const fileName = promptContent.replaceAll('\\','_').replaceAll(':','_').replaceAll('\n',' ').replaceAll('\r',' ');
     const fileName = promptContent.replace(/[\r\n\x0B\x0C\u0085\u2028\u2029]+/g,' ').replace(/[\\\:\\/\"]+/g,'_').replaceAll(/\p{Emoji}/ug, '_');
@@ -235,7 +235,7 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
     // Create a text file containing the prompt
     const promptFileName = `${num}_prompt.txt`;
     zip.file(promptFileName, promptContent);
-//v2.0-
+//v2.0 end edit
 
     try {
       const response = await fetch(url);
@@ -244,7 +244,7 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
       if (response.ok) {
         const blob = await response.blob();
 
-//v2.0+
+//v2.0 start edit
         // Image file name
         const imageFileName = `${num} ${shortFileName}.jpg`;
 
@@ -266,8 +266,8 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
 
         // Add the image file to the zip with contentId as the file name
         zip.file(imageFileName, blob, { comment, date: dateModified });
-//v2.0-
-//v2.0+
+//v2.0 end edit
+//v2.0 start edit
         htmlFileName = `${num}_image.html`;
         htmlContent = `${htmlContentHeader}${singleHtmlContent}${htmlContentFooter}`;
         zip.file(htmlFileName, htmlContent);
@@ -372,7 +372,7 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
                               return a[0]-b[0]
                            });;
       zip.file(totalHtmlFileName, htmlContentHeader + arrayColumn(totalHtmlContent, 1).join('') + htmlContentFooter);
-//v2.0-
+//v2.0 end edit
     }
   }
 
