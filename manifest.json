@@ -1,7 +1,7 @@
 {
   "name": "bing-collection-downloader-pro",
   "version": "2.0",
-  "description": "bulk download images and prompts from bing image creator collection (based on a previous version by rugia814)",
+  "description": "bulk download images and prompts from bing image creator collection (based on a previous version by rugia813)",
   "content_scripts": [
     {
       "matches": ["https://www.bing.com/saves*"],
