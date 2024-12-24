@@ -1,4 +1,4 @@
-# Bing Image Creator Collection Downloader PRO (Chrome Extension)
+# Bing Image Creator Collection Downloader pro (Chrome Extension)
 Based on a pre-existing Chrome Extension by rugia814:
 (https://github.com/rugia813/bing-collection-downloader/blob/master/Annotation%202024-01-01%20163647.png)
 Original version features:
