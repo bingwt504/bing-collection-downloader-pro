@@ -8,6 +8,8 @@ Original version features:
 This version (in addition):
  - downloads the prompts as .txt files with the same number as the image file.
 
+
+
 # How to use
 1) Download the files of this repository in a folder in your PC.
 2) Open Google Chrome and go to chrome://extensions/.
