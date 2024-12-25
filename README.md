@@ -7,3 +7,12 @@ Original version features:
 
 This version (in addition):
  - downloads the prompts as .txt files with the same number as the image file.
+
+# How to use
+1) Download the files of this repository in a folder in your PC.
+2) Open Google Chrome and go to chrome://extensions/.
+3) At the top right, turn on Developer mode.
+4) Click Load unpacked.
+5) Select the folder where you downloaded the files.
+6) Go to your Bing Collections Page, you should find a big "Download All Images" button on the left, and a small button next to any custom collection.
+For further information on loading custom extensions see https://support.google.com/chrome/a/answer/2714278?hl=en
