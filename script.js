@@ -258,8 +258,8 @@ async function downloadImagesAsZip(extractedData, fileName = 'bing-images') {
     </td>
     <td>
       <img src="${imageFileName}"
-        width = "300"
-        height = "300">
+        width = "440"
+        height = "440">
     </td>
 </tr>
 `;
