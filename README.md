@@ -17,3 +17,6 @@ This version (in addition):
 6) Go to your Bing Collections Page, you should find a big "Download All Images" button on the left, and a small button next to any custom collection.
 
 For further information on loading custom extensions see https://support.google.com/chrome/a/answer/2714278?hl=en
+
+# UPDATE 24/05/2025:
+please be aware that the HTML file is NOT PORTABLE!! Then it will break if you move it to another folder. So I'd suggest you to KEEP THE ORIGINAL ZIP FILES, since they will always work.
