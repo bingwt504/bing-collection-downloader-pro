@@ -20,3 +20,5 @@ For further information on loading custom extensions see https://support.google.
 
 # IMPORTANT UPDATE 24/05/2025:
 please be aware that the HTML file is NOT PORTABLE!! Then it will break if you move it to another folder. So I'd suggest you to KEEP THE ORIGINAL ZIP FILES, since they will always work.
+
+Alternatively, if you have unzipped/want to unzip the files, you can use another tool from mine https://github.com/bingwt504/ai_images_gallery_generator/tree/main which will organize your pictures and prompts in an offline searchable HTML gallery.
