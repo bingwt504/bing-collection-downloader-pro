@@ -18,5 +18,5 @@ This version (in addition):
 
 For further information on loading custom extensions see https://support.google.com/chrome/a/answer/2714278?hl=en
 
-# UPDATE 24/05/2025:
+# IMPORTANT UPDATE 24/05/2025:
 please be aware that the HTML file is NOT PORTABLE!! Then it will break if you move it to another folder. So I'd suggest you to KEEP THE ORIGINAL ZIP FILES, since they will always work.
