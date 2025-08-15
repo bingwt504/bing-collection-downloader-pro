@@ -29,7 +29,7 @@ For easier management and visualization of your downloaded collections, you can 
 
 **Recommended workflow:**  
 1. Use this tool (Downloader) to get images from Bing Collections.  
-2. Unzip them in separaed subfolders into the `images/` folder of the Gallery Generator.  
+2. Unzip them in subfolders into the `images/` folder of the Gallery Generator.  
 3. Run the Gallery Generator to create a single HTML gallery combining multiple collections.  
 
 # Important
