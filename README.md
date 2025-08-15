@@ -18,7 +18,18 @@ This version (in addition):
 
 For further information on loading custom extensions see https://support.google.com/chrome/a/answer/2714278?hl=en
 
-# IMPORTANT UPDATE 24/05/2025:
-please be aware that the HTML file is NOT PORTABLE!! Then it will break if you move it to another folder. So I'd suggest you to KEEP THE ORIGINAL ZIP FILES, since they will always work.
+# (optional) Using with AI Images Gallery Generator
 
-Alternatively, if you have unzipped/want to unzip the files, you can use another tool from mine https://github.com/bingwt504/ai_images_gallery_generator/tree/main which will organize your pictures and prompts in an offline searchable HTML gallery.
+For easier management and visualization of your downloaded collections, you can use the **AI Images Gallery Generator** (see https://github.com/bingwt504/ai_images_gallery_generator).  
+
+- This tool allows you to generate a **self-contained, searchable HTML gallery** of all your downloaded images and prompts.  
+- You can organize images from **multiple downloaded ZIP files** into a **unique** gallery.  
+- This makes it easier to browse, search, favorite, and manage your AI-generated images offline.  
+
+**Recommended workflow:**  
+1. Use this tool (Downloader) to get images from Bing Collections.  
+2. Unzip them in separaed subfolders into the `images/` folder of the Gallery Generator.  
+3. Run the Gallery Generator to create a single HTML gallery combining multiple collections.  
+
+# Important
+Please be aware that the HTML file is NOT PORTABLE!! Then it will break if you move it to another folder. So I'd suggest you to **keep the original zip files**, since they will always work.
